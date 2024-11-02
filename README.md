@@ -102,13 +102,3 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This README provides an overview of the project, including setup instructions, core functionality, obfuscation techniques, and future scope. Ensure each step is completed as outlined, and refer to the Chrome Developer Documentation for any additional setup.
