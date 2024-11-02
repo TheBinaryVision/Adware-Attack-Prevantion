@@ -2,7 +2,18 @@
 
 This Chrome extension blocks adware-related content, providing a safer, cleaner browsing experience by preventing malicious ad networks from loading and tracking user behavior. With features like ad-blocking, ad source logging, and a user interface for reviewing blocked sources, this extension aims to offer robust adware prevention and security.
 
-# Features
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development and Deployment](#development-and-deployment)
+- [Obfuscation Techniques](#obfuscation-techniques)
+- [Future Scope](#future-scope)
+
+---
+
+### Features
 
 - **Ad-blocking and Request Interception**: Uses Chrome's `DeclarativeNetRequest` API to block ads from known malicious sources.
 - **Ad Source Logging**: Records blocked sources in local storage, allowing users to track what is being blocked.
