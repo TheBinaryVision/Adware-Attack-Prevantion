@@ -130,6 +130,15 @@ chrome.runtime.onInstalled.addListener(() => {
           "urlFilter": "*://*.reddit.com/*",
           "resourceTypes": ["main_frame", "sub_frame"]
         }
+      },
+      {
+        "id": 15,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "*://*.http://127.0.0.1:5500/index.html/*", // Block malicious website
+          "resourceTypes": ["main_frame", "sub_frame"]
+        }
       }
     ]
   });
